@@ -17,14 +17,16 @@
 
 
 body{
-    width: 1280px;
-    background-color: rgb(17, 17, 17)
+    max-width: 1280px;
+    background-color: rgb(17, 17, 17);
+    margin-top: 40px;
 }
 /* header style */
 nav ul li a {
     text-decoration: none;
     font-size: 1.25rem;
     color: white;
+    margin: 0px 10px;
 }
 nav ul{
     list-style: none;
@@ -36,11 +38,11 @@ nav ul{
 display: flex;
 gap: 10px;
 }
-nav div{
+nav > div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 900px;
+    width: 70%;
     height: 45px;
     color:rgb(230, 83, 60);
 }
@@ -59,4 +61,10 @@ nav{
     border: none;
     border-radius: 40px;
     padding: 8px 10px;
+}
+.bar-icon{
+    display: none;
+}
+.header-list{
+    /* display: block; */
 }

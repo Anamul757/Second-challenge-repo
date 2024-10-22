@@ -1,0 +1,13 @@
+@media screen and (max-width:576px) {
+    .bar-icon{
+        display: block;
+        margin-top: 7px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav{
+        /* max-width: 70%; */
+        margin: 0px;
+    }
+}
