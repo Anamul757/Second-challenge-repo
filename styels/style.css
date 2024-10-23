@@ -120,110 +120,128 @@ main {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
     padding: 16px 40px;
-}
-
-
-.des-section,
-.des-sectionTwo {
-    width: 40%;
-}
-
-.des-sectionTwo {
-    position: relative;
-}
-
-
-.des-img img {
-    width: 100%;
-    height: 580px;
-}
-
-/* section-bar style */
-.sectionBar,
-.sectionBar-2 {
-    position: absolute;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 5px;
-}
-
-.sectionBar {
-    top: 200px;
-    left: 200px;
-}
-
-.sectionBar-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 400px;
-    left: 5px;
-    gap: 15px;
-}
-
-.bar-heading {
-    font-family: Inter;
-    Font-weight: 900;
-    Font-size: 2.5rem;
-}
-
-.box {
-    width: 40px;
-    height: 40px;
-    background-color: rgb(230, 83, 60);
-    border-radius: 50%;
-}
-
-.btn-primary {
-    border: none;
-    margin-top: 20px;
-}
-
-/* Habit section */
-.habit-section {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.habit-des {
-    text-align: center;
-    margin-top: 100px;
-}
-
-.habit-heading {
-    font-family: Inter;
-    Font-weight: 900;
-    Font-size: 3rem;
     color: rgb(255, 255, 255);
-    margin-bottom: 15px;
-
-}
-.habit-template{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.template-img {
-    border: none;
-    border-radius: 50%;
-}
-
-.template-heading {
     font-family: Inter;
-    Font-weight: 600;
-    Font-size: 1.125rem;
-    color: rgb(255, 255, 255);
-}
-.template{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 5px;
-}
-.temp-para{
-    text-align: center;
-}
+    font-size: 1.125rem;
+    font-weight: 600;
+
+
+    .des-section,
+    .des-sectionTwo {
+        width: 40%;
+    }
+
+    .des-sectionTwo {
+        position: relative;
+    }
+
+
+    .des-img img {
+        width: 100%;
+        height: 580px;
+    }
+
+    /* section-bar style */
+    .sectionBar,
+    .sectionBar-2 {
+        position: absolute;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 5px;
+    }
+
+    .sectionBar {
+        top: 200px;
+        left: 200px;
+    }
+
+    .sectionBar-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 400px;
+        left: 5px;
+        gap: 15px;
+    }
+
+    .bar-heading {
+        font-family: Inter;
+        Font-weight: 900;
+        Font-size: 2.5rem;
+    }
+
+    .box {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(230, 83, 60);
+        border-radius: 50%;
+    }
+
+    .btn-primary {
+        border: none;
+        margin-top: 20px;
+    }
+
+    /* Habit section */
+    .habit-section {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .habit-des {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .habit-heading {
+        font-family: Inter;
+        Font-weight: 900;
+        Font-size: 3rem;
+        color: rgb(255, 255, 255);
+        margin-bottom: 15px;
+
+    }
+
+    .habit-template {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .template-img {
+        border: none;
+        border-radius: 50%;
+    }
+
+    .template-heading {
+        font-family: Inter;
+        Font-weight: 600;
+        Font-size: 1.125rem;
+        color: rgb(255, 255, 255);
+    }
+
+    .template {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 5px;
+    }
+
+    .temp-para {
+        text-align: center;
+    }
+
+    .run-section {
+        width: 80%;
+        margin: 0 auto;
+        background-color: rgb(34, 34, 34);
+        border-radius: 18px;
+        margin-top: 100px;
+    }
+
+    .run-des {
+        width: 40%;
+    }
