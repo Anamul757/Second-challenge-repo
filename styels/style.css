@@ -27,7 +27,7 @@ body {
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.5px;
 }
 
@@ -188,7 +188,7 @@ main {
 }
 
 .habit-des {
-    text-align:center;
+    text-align: center;
     margin-top: 100px;
 }
 
@@ -198,5 +198,32 @@ main {
     Font-size: 3rem;
     color: rgb(255, 255, 255);
     margin-bottom: 15px;
-    
+
+}
+.habit-template{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.template-img {
+    border: none;
+    border-radius: 50%;
+}
+
+.template-heading {
+    font-family: Inter;
+    Font-weight: 600;
+    Font-size: 1.125rem;
+    color: rgb(255, 255, 255);
+}
+.template{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+.temp-para{
+    text-align: center;
 }

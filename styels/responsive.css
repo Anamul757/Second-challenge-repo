@@ -1,20 +1,31 @@
 @media screen and (max-width:576px) {
-    .bar-icon{
+    .bar-icon {
         display: block;
         margin-top: 7px;
         color: white;
     }
-    nav ul{
+
+    nav ul {
         display: none;
     }
-    nav{
+
+    nav {
         margin: 0px;
     }
-    .description{
+
+    .description {
         flex-direction: column;
     }
+
     .des-section,
-.des-sectionTwo {
-    width: 100%;
-}
+    .des-sectionTwo {
+        width: 100%;
+    }
+    .habit-template{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .template{
+        width: 80%;
+        margin: 10px auto;
+    }
 }
