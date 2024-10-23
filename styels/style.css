@@ -1,26 +1,36 @@
 /* Shared related style */
 
 .inter-simple {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-body{
+body {
     max-width: 1280px;
     background-color: rgb(17, 17, 17);
     margin-top: 40px;
 }
+
+.des-para {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
 /* header style */
 nav ul li a {
     text-decoration: none;
@@ -28,43 +38,165 @@ nav ul li a {
     color: white;
     margin: 0px 10px;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     border: 1px solid rgba(245, 245, 245, 0.205);
     border-radius: 10px;
     padding: 10px;
 }
-nav ul{
-display: flex;
-gap: 10px;
+
+nav ul {
+    display: flex;
+    gap: 10px;
 }
-nav > div{
+
+nav>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
-    height: 45px;
-    color:rgb(230, 83, 60);
+    width: 80%;
+    color: rgb(230, 83, 60);
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     margin: 15px auto;
     background-color: rgb(17, 17, 17);
 }
-.header-heading{
- font-size: 2.25rem;
- font-weight: 800;
+
+.header-heading {
+    font-size: 2.25rem;
+    font-weight: 800;
 }
-.home-anchor{
+
+.home-anchor {
     background-color: rgb(230, 83, 60);
     border: none;
     border-radius: 40px;
     padding: 8px 10px;
 }
-.bar-icon{
+
+.bar-icon {
     display: none;
 }
-.header-list{
-    /* display: block; */
+
+/* Main related style */
+main {
+    /* background-color: rgb(17, 17, 17); */
+}
+
+/* Description section */
+
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.des-heading {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.italic {
+    font-family: Inter;
+    font-size: 2.8rem;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+
+
+.btn-primary {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px;
+}
+
+
+.des-section,
+.des-sectionTwo {
+    width: 40%;
+}
+
+.des-sectionTwo {
+    position: relative;
+}
+
+
+.des-img img {
+    width: 100%;
+    height: 580px;
+}
+
+/* section-bar style */
+.sectionBar,
+.sectionBar-2 {
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+}
+
+.sectionBar {
+    top: 200px;
+    left: 200px;
+}
+
+.sectionBar-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 400px;
+    left: 5px;
+    gap: 15px;
+}
+
+.bar-heading {
+    font-family: Inter;
+    Font-weight: 900;
+    Font-size: 2.5rem;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+.btn-primary {
+    border: none;
+    margin-top: 20px;
+}
+
+/* Habit section */
+.habit-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.habit-des {
+    text-align:center;
+    margin-top: 100px;
+}
+
+.habit-heading {
+    font-family: Inter;
+    Font-weight: 900;
+    Font-size: 3rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    
 }

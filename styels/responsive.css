@@ -2,12 +2,19 @@
     .bar-icon{
         display: block;
         margin-top: 7px;
+        color: white;
     }
     nav ul{
         display: none;
     }
     nav{
-        /* max-width: 70%; */
         margin: 0px;
     }
+    .description{
+        flex-direction: column;
+    }
+    .des-section,
+.des-sectionTwo {
+    width: 100%;
+}
 }
