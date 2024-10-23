@@ -127,136 +127,201 @@ main {
     margin-top: 20px;
 }
 
-#download-btn{
+#download-btn {
     background-color: black;
     border: 1px solid white;
 }
 
-    .des-section,
-    .des-sectionTwo {
-        width: 40%;
-    }
+.des-section,
+.des-sectionTwo {
+    width: 40%;
+}
 
-    .des-sectionTwo {
-        position: relative;
-    }
+.des-sectionTwo {
+    position: relative;
+}
 
 
-    .des-img img {
-        width: 100%;
-        height: 580px;
-    }
+.des-img img {
+    width: 100%;
+    height: 580px;
+}
 
-    /* section-bar style */
-    .sectionBar,
-    .sectionBar-2 {
-        position: absolute;
-        border: none;
-        border-radius: 5px;
-        color: white;
-        background-color: rgba(255, 255, 255, 0.1);
-        padding: 5px;
-    }
+/* section-bar style */
+.sectionBar,
+.sectionBar-2 {
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+}
 
-    .sectionBar {
-        top: 200px;
-        left: 200px;
-    }
+.sectionBar {
+    top: 200px;
+    left: 200px;
+}
 
-    .sectionBar-2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 400px;
-        left: 5px;
-        gap: 15px;
-    }
+.sectionBar-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 400px;
+    left: 5px;
+    gap: 15px;
+}
 
-    .bar-heading {
-        font-family: Inter;
-        Font-weight: 900;
-        Font-size: 2.5rem;
-    }
+.bar-heading {
+    font-family: Inter;
+    Font-weight: 900;
+    Font-size: 2.5rem;
+}
 
-    .box {
-        width: 40px;
-        height: 40px;
-        background-color: rgb(230, 83, 60);
-        border-radius: 50%;
-    }
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
 
-    
 
-    .btn-section{
-        display: flex;
-        gap: 10px;
-    }
-    /* Habit section */
-    .habit-section {
-        width: 80%;
-        margin: 0 auto;
-    }
 
-    .habit-des {
-        text-align: center;
-        margin-top: 100px;
-    }
+.btn-section {
+    display: flex;
+    gap: 10px;
+}
 
-    .habit-heading {
-        font-family: Inter;
-        Font-weight: 900;
-        Font-size: 3rem;
-        color: rgb(255, 255, 255);
-        margin-bottom: 15px;
+/* Habit section */
+.habit-section {
+    width: 80%;
+    margin: 0 auto;
+}
 
-    }
+.habit-des {
+    text-align: center;
+    margin-top: 100px;
+}
 
-    .habit-template {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
+.habit-heading {
+    font-family: Inter;
+    Font-weight: 900;
+    Font-size: 3rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
 
-    .template-img {
-        border: none;
-        border-radius: 50%;
-    }
+}
 
-    .template-heading {
-        font-family: Inter;
-        Font-weight: 600;
-        Font-size: 1.125rem;
-        color: rgb(255, 255, 255);
-    }
+.habit-template {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
-    .template {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        margin-top: 5px;
-    }
+.template-img {
+    border: none;
+    border-radius: 50%;
+}
 
-    .temp-para {
-        text-align: center;
-    }
+.template-heading {
+    font-family: Inter;
+    Font-weight: 600;
+    Font-size: 1.125rem;
+    color: rgb(255, 255, 255);
+}
 
-    .run-section {
-        display: flex;
-        justify-content: space-between;
-        width: 80%;
-        margin: 0 auto;
-        background-color: rgb(34, 34, 34);
-        border-radius: 18px;
-        margin-top: 100px;
-        padding: 25px 40px;
-        
-    }
+.template {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
 
-    .run-des, .run-img {
-        width: 30%;
-    }
-    .run-img img{
-        width: 100%;
-        height: 100%;
-    }
+.temp-para {
+    text-align: center;
+}
+
+.run-section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    margin-top: 100px;
+    padding: 25px 40px;
+
+}
+
+.run-des,
+.run-img {
+    width: 30%;
+}
+
+.run-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* BMI section */
+.BMI-section {
+    background-color: rgb(34, 34, 34);
+}
+
+.BMI-div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.BMI-chart{
+    display: flex;
+}
+.BMI-chart2{
+    margin-left: 180px;
+}
+.BMI-calculation {
+    width: 50%;
+
+}
+
+.BMI-table {
+    color: white;
+}
+
+.BMI-heading {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 900;
+    /* margin: 50px 0px; */
+    padding: 50px 0px;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+}
+.BMI-input{
+width: 200px;
+padding: 10px 40px;
+margin: 5px 5px;
+border: none;
+border-radius: 5px;
+color: #ffffff99;
+background: rgba(255, 255, 255, 0.1);
+}
+.select-inp{
+    width: 280px;
+}
+.select-input{
+    width: 575px;
+}
+.BMI-option{
+    color: white;
+    background-color: black;
+}

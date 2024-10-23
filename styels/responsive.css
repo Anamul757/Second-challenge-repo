@@ -37,4 +37,14 @@
     .run-des, .run-img {
         width: 100%;
     }
+    .BMI-chart{
+        flex-direction: column;
+    }
+    .BMI-chart2{
+        margin-left:0;
+    }
+    .BMI-div{
+        width: 100%;
+        margin: 0;
+    }
 }
