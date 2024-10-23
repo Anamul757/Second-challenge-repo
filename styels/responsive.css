@@ -28,4 +28,13 @@
         width: 80%;
         margin: 10px auto;
     }
+    .run-section{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .run-des, .run-img {
+        width: 100%;
+    }
 }
