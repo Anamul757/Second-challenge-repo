@@ -47,4 +47,14 @@
         width: 100%;
         margin: 0;
     }
+    /* Meet section */
+    .meet-sec-img{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .meet-grid{
+        /* display: flex;
+        justify-content: center; */
+        width: 100%;
+    }
 }

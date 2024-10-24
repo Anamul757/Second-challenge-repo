@@ -265,7 +265,7 @@ main {
 }
 
 /* BMI section */
-.BMI-banner{
+.BMI-banner, .habit-banner{
     width: 60%;
     margin: 80px auto;
 }
@@ -301,7 +301,6 @@ main {
     font-family: Inter;
     font-size: 1.75rem;
     font-weight: 900;
-    /* margin: 50px 0px; */
     padding: 50px 0px;
 }
 table{
@@ -332,4 +331,46 @@ background: rgba(255, 255, 255, 0.1);
 }
 .input-section{
     margin-top: 40px;
+}
+/* meet section */
+.meet-section{
+    width: 80%;
+    margin: 50px auto;
+    padding: 5px 0px 0px 15px;
+    background-color: rgb(34, 34, 34);
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.meet-sec-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+.meet-grid{
+    position: relative;
+    width: 80%;
+}
+.trainer-img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.meet-img-des{
+    position: absolute;
+    top: 130px;
+    left: 15px;
+}
+.meet-img-heading{
+    color: aliceblue;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.meet-grid img{
+    width: 100%;
 }
