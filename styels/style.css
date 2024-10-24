@@ -32,7 +32,8 @@ body {
 }
 
 /* header style */
-nav ul li a {
+nav ul li a,
+footer .footer-link a {
     text-decoration: none;
     font-size: 1.25rem;
     color: white;
@@ -265,7 +266,8 @@ main {
 }
 
 /* BMI section */
-.BMI-banner, .habit-banner{
+.BMI-banner,
+.habit-banner {
     width: 60%;
     margin: 80px auto;
 }
@@ -281,12 +283,15 @@ main {
     margin: 0 auto;
 
 }
-.BMI-chart{
+
+.BMI-chart {
     display: flex;
 }
-.BMI-chart2{
+
+.BMI-chart2 {
     margin-left: 180px;
 }
+
 .BMI-calculation {
     width: 50%;
 
@@ -303,47 +308,55 @@ main {
     font-weight: 900;
     padding: 50px 0px;
 }
-table{
+
+table {
     border-collapse: collapse;
 }
-td{
+
+td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 15px;
 }
-.BMI-input{
-width: 200px;
-padding: 10px 40px;
-margin: 5px 5px;
-border: none;
-border-radius: 5px;
-color: #ffffff99;
-background: rgba(255, 255, 255, 0.1);
+
+.BMI-input {
+    width: 200px;
+    padding: 10px 40px;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff99;
+    background: rgba(255, 255, 255, 0.1);
 }
-.select-inp{
+
+.select-inp {
     width: 280px;
 }
-.select-input{
+
+.select-input {
     width: 575px;
 }
-.BMI-option{
+
+.BMI-option {
     color: white;
     background-color: black;
 }
-.input-section{
+
+.input-section {
     margin-top: 40px;
 }
+
 /* meet section */
-.meet-section{
+.meet-section {
     width: 80%;
     margin: 50px auto;
     padding: 5px 0px 0px 15px;
     background-color: rgb(34, 34, 34);
     border: none;
     border-radius: 10px;
-    
+
 }
 
-.meet-sec-img{
+.meet-sec-img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -354,23 +367,75 @@ background: rgba(255, 255, 255, 0.1);
     position: relative;
     width: 80%;
 }
-.trainer-img{
+
+.trainer-img {
     width: 300px;
     height: 200px;
     border-radius: 10px;
 }
-.meet-img-des{
+
+.meet-img-des {
     position: absolute;
     top: 130px;
     left: 15px;
 }
-.meet-img-heading{
+
+.meet-img-heading {
     color: aliceblue;
     font-family: Inter;
     font-size: 1.25rem;
     font-weight: 700;
 }
 
-.meet-grid img{
+.meet-grid img {
     width: 100%;
+}
+
+/* Footer section style */
+
+footer {
+    height: auto;
+    background-color: rgb(34, 34, 34);
+}
+
+.footer-des,
+.footer-link {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.footer-anchor {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link {
+    margin-left: 150px;
+}
+
+.footer-heading {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer-anchor,
+.footer-para {
+    margin-top: 30px;
+    gap: 15px;
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    /* color: aliceblue; */
 }
