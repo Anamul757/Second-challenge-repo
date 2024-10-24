@@ -265,6 +265,11 @@ main {
 }
 
 /* BMI section */
+.BMI-banner{
+    width: 60%;
+    margin: 80px auto;
+}
+
 .BMI-section {
     background-color: rgb(34, 34, 34);
 }
@@ -324,4 +329,7 @@ background: rgba(255, 255, 255, 0.1);
 .BMI-option{
     color: white;
     background-color: black;
+}
+.input-section{
+    margin-top: 40px;
 }
